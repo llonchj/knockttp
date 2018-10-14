@@ -1,0 +1,23 @@
+[
+    {
+        "query": "/",
+        "methods": {
+            "*": {
+                "body": "SGVsbG8gV29ybGQh",
+                "headers": {
+                    "Test-Header": [
+                        "hello"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "query": "/redirect",
+        "methods": {
+            "*": {
+                "location": "http://www.example.com/"
+            }
+        }
+    }
+]

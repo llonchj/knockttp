@@ -1,0 +1,5 @@
+{
+    "browserRefresh.browser": "Google Chrome", // The browser to refresh
+    "browserRefresh.delay": 1, // Delay after which ⌘R will be sent to the browser
+    "browserRefresh.focus": false // Keep the focus on the browser
+}

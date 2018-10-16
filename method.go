@@ -26,7 +26,7 @@ func (m *Handler) Handle(w http.ResponseWriter, r *http.Request, Data Data) {
 	statusCode := m.StatusCode
 	if m.Location != "" {
 		if statusCode == 0 {
-			statusCode = http.StatusTemporaryRedirect
+			statusCode = http.StatusMovedPermanently
 		}
 		http.Redirect(w, r, m.Location, statusCode)
 	}

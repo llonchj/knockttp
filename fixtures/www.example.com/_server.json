@@ -16,7 +16,7 @@
         "query": "/redirect",
         "methods": {
             "*": {
-                "location": "http://www.example.com/"
+                "location": "http://www.example.com"
             }
         }
     }
